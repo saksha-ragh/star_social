@@ -28,10 +28,10 @@ SECRET_KEY = 'eqrc%mrsx+(mvb7uf(4(&n5ujs*wg0g3=a^(oy$8h(6i$9d_&d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 
-# Application definition
+# Application definitiongit
 
 INSTALLED_APPS = [
     'django.contrib.admin',
